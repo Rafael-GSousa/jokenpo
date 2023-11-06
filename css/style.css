@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+header {
+  padding-top: 0.625rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header img {
+  height: 9.375rem;
+}
+
+@media screen and (max-width: 400px) {
+  header img {
+    height: 6.25rem;
+  }
+}
+
+@media screen and (min-width:401px) and (max-width: 600px) {
+  header img {
+    height: 8.125rem;
+  }
+}
+
+main {
+  width: 31.25rem;
+  margin: auto;
+  text-align: center;
+  /* background-color: beige; */
+}
+
+@media screen and (max-width: 600px){
+  main {
+    width: 100%;
+  }
+}
+
+main .mensagem {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* background-color: red; */
+  height: 3rem;
+}
+
+main .tela {
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+}
+
+main img {
+  width: 80px;
+}
+
+.placar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+  /* background-color: blue; */
+}
+
+.placar .valores {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+  font-size: 1.5rem;
+  padding: 0 20%;
+}
+
+#seuPlacar, #placarPC {
+  padding: 5px 50px;
+}
+
+.escolha h2 {
+  /* background-color: yellow; */
+  padding: 10px 0;
+}
+
+.escolha .opcao {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  /* background-color: aqua; */
+}
+
+/* .escolha .opcao div {
+  display: flex;
+  flex-direction: column;
+} */
+
+.button {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.play,
+.restart {
+  width: 90px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.play:hover,
+.restart:hover {
+  cursor: pointer;
+  background-color: rgba(134, 21, 21, 0.39);
+}
+

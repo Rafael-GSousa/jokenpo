@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./img/jokenpo.png"
+        alt="Imagem cômica de Jô Soares, Ken de Street Fighter e Pô dos Teletubies"
+      />
+    </header>
+
+    <main class="painel">
+      <section class="mensagem">
+        <h1 id="ganhouPerdeu"></h1>
+      </section>
+
+      <section class="tela">
+        <div class="jogador">
+          <h2>VOCÊ</h2>
+          <output id="saidaVoce">
+            <img src="./img/caixa-mario.png" alt="" class="caixa-mario" />
+          </output>
+        </div>
+
+        <img src="./img/versus.png" alt="" class="versus" />
+
+        <div class="computador">
+          <h2>PC</h2>
+          <output id="saidaPC">
+            <img src="./img/caixa-mario.png" alt="" class="caixa-mario" />
+          </output>
+        </div>
+      </section>
+
+      <section class="placar">
+        <h2>PLACAR</h2>
+        <div class="valores">
+          <span id="seuPlacar">0</span>
+          <span id="placarPC">0</span>
+        </div>
+      </section>
+
+      <section class="escolha">
+        <h2>Escolha uma opção abaixo</h2>
+        <div class="opcao">
+          <!-- <div> -->
+            <img src="./img/pedra.png" alt="" class="pedra"/>
+            <!-- <input type="radio" name="img" class="radioPedra"> -->
+          <!-- </div> -->
+          <!-- <div> -->
+            <img src="./img/papel.png" alt="" class="papel" />
+            <!-- <input type="radio" name="img" class="radioPapel"> -->
+          <!-- </div> -->
+          <!-- <div> -->
+            <img src="./img/tesoura.png" alt="" class="tesoura" />
+            <!-- <input type="radio" name="img" class="radioTesoura"> -->
+          <!-- </div> -->
+        </div>
+      </section>
+    </main>
+      <section class="button">
+        <button type="button" class="play">Play</button>
+        <button type="button" class="restart">Restart</button>
+      </section>
+
+   
+
+    <footer></footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
